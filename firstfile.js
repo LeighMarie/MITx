@@ -7,6 +7,7 @@ var calculator = (function () {
         //google REGULAR EXPRESSIONS JAVASCRIPT
         //just for integers
         //var pattern = /\d+|\+|\-|\*|\/|\(|\)/g;
+        //for 
         var pattern = /[0-9]*\.?[0-9]+|\+|\-|\*|\/|\(|\)/g;       
         var tokens = text.match(pattern);
         //return JSON.stringify(tokens);
@@ -106,15 +107,6 @@ var calculator = (function () {
                 case "-": 
                 value = value - temp;
                 break;
-                
-                //case "*": 
-                //value = value * temp;
-                //break;
-                               
-                //case "/": 
-                //value = value / temp;
-                //break;
-
         }
         }
         return value;
