@@ -8,4 +8,5 @@ var calculator = (function () {
     
     return {
         calculate: calculate
+    };
 })();
