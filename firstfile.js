@@ -1,3 +1,5 @@
 function calculate(){
-        console.log('click!');
+    var txt = $('#text');
+    var val = txt.val();
+    console.log(val);
     }
